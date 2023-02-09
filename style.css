@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'futurabold';
+    src: url('font/unicode.futurab-webfont.woff2') format('woff2'),
+         url('font/unicode.futurab-webfont.woff') format('woff');
+}
+
+html {
+    width: 470px;
+    height: 350px;
+}
+
+body {
+    background-image: url("back.jpg");
+    background-size: cover;
+}
+
+.txt {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#img {
+    width: 426.6px;
+    height: 240px;
+}

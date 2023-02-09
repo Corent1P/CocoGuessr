@@ -1,0 +1,22 @@
+
+{
+    "name": "Jolie Extension",
+    "description": "REGAAAAAAAAAAARDE",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "icons": {
+        "250": "250.png"
+    },
+    "action": {
+        "default_popup": "./popup.html",
+        "default_icons": {
+            "128": "128.png"
+        }
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://www.google.com/*"
+    ]
+}
